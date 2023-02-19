@@ -1,0 +1,141 @@
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    max-height: 50px;
+}
+.navbar-logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.navbar-links a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.navbar-links a:hover {
+    color: #444;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style hero section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.hero a {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.2s ease;
+}
+.hero a:hover {
+    background-color: #ddd;
+}
+
+/* Style rubric section */
+.rubric {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.rubric h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.product a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.2s ease;
+}
+.product a:hover {
+    background-color: #444;
+}
+.product-text {
+    margin-top: 10px;
+    text-align: left;
+}
