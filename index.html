@@ -2,39 +2,19 @@
 <html>
 <head>
 	<title>Hub Website</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			text-align: center;
-		}
-		h1 {
-			font-size: 2em;
-			margin-bottom: 0.5em;
-		}
-		button {
-			background-color: #4CAF50;
-			color: white;
-			font-size: 1.2em;
-			padding: 0.5em 1em;
-			border: none;
-			border-radius: 0.5em;
-			cursor: pointer;
-			transition: background-color 0.3s ease;
-			margin: 0.5em;
-		}
-		button:hover {
-			background-color: #3e8e41;
-		}
-	</style>
+	<link rel="stylesheet" href="styleMain.css">
 </head>
 <body>
-	<h1>Hub Website</h1>
-	<ul>
-		<li><button onclick="location.href='/apple/index.html'">Apple</button></li>
-		<li><button onclick="location.href='https://www.youtube.com'">niklas</button></li>
-		<li><button onclick="location.href='https://www.facebook.com'">Facebook</button></li>
-		<li><button onclick="location.href='https://www.instagram.com'">Instagram</button></li>
-		<li><button onclick="location.href='https://www.twitter.com'">Twitter</button></li>
-	</ul>
+	<div class="container">
+		<h1>Hub Website</h1>
+		<p>Welcome to our hub website! We have gathered here some of the most useful links on the web to make your browsing experience smoother and faster. Feel free to explore and bookmark this page for future reference.</p>
+		<ul>
+			<li><a href="/apple/index.html" class="button">Apple</a></li>
+			<li><a href="https://www.youtube.com" class="button">Youtube</a></li>
+			<li><a href="https://www.facebook.com" class="button">Facebook</a></li>
+			<li><a href="https://www.instagram.com" class="button">Instagram</a></li>
+			<li><a href="https://www.twitter.com" class="button">Twitter</a></li>
+		</ul>
+	</div>
 </body>
 </html>
