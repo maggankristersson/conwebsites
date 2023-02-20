@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="shop.css">
+    <title>The Con Society - Shop</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#">Membership</a>
+                <div class="dropdown-content">
+                  <a href="#">Join Us</a>
+                  <a href="#">Member Benefits</a>
+                </div>
+              </li>
+              <li><a href="shop.html">Book</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <h1 class="page-title">Art of the Con</h1>
+        <div class="book-cover2">
+            <img src="https://bilder.akademibokhandeln.se/images_akb/9781137279873_383/the-art-of-the-con" alt="The Art of the Con Book Cover">
+        </div>
+      <div class="book-description">
+        <p>Learn the secrets of the world's most successful con artists with this comprehensive guide to the art of the con.</p>
+        <p>From confidence tricks to social engineering, this book will teach you everything you need to know to master the art of deception.</p>
+        <p>Price: $999.99</p>
+        <form action="checkout.html">
+          <label for="quantity">Quantity:</label>
+          <input type="number" name="quantity" id="quantity" min="1" max="10" value="1">
+          <input type="submit" value="Add to Cart">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 The Con Society</p>
+    </footer>
+  </body>
+</html>
