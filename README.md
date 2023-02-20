@@ -2,4 +2,4 @@
 Consite
 This site is dedicated for the true cons
 OGs:
-Maggankristersson, Snabelbabbsan & Sokrates
+Maggankristersson, Snabelbabbsan & Masterofcon
