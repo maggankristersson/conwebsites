@@ -12,6 +12,8 @@
     width: 5%;
     height: auto;
     margin-bottom: 20px;
+    text-align: center;
+    margin-left: 595px;
 }
 
 .btn {
@@ -96,12 +98,14 @@ body {
     margin: 0;
     padding: 0;
     margin: 30px 30px;
+    text-align: center;
   }
   
   .container {
     max-width: 500px;
     margin: 0 auto;
     padding: 0 15px;
+    text-align: center;
   }
   
   /* Navigation bar */
