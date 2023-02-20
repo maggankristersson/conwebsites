@@ -45,3 +45,26 @@ h1{
 .ad:hover{
     cursor: pointer;
 }
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428950i/23014716.jpg");
+    background-size: cover;
+    position: relative;
+    animation-name: example;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:93%; top:0px;}
+    50%  {background-color:blue; left:93%; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
