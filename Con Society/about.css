@@ -12,6 +12,7 @@ body {
     background-color: #1b1b1b;
     color: #fff;
     font-family: "Old English", serif;
+    text-align: center;
   }
   
   h1 {
@@ -27,6 +28,7 @@ body {
     line-height: 1.2;
     margin: 20px 20px; 
     text-align: justify;
+    text-align: center;
   }
   
   .container {
