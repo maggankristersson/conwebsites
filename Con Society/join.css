@@ -7,11 +7,23 @@
     text-shadow: 2px 2px 4px rgb(255, 255, 255);
     letter-spacing: 0.1em;
   }
+  .contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    font-family: "Blackletter", "Bodoni MT Black", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+  }
   
   body {
     background-color: #1b1b1b;
     color: #fff;
     font-family: "Old English", serif;
+    text-align: center;
   }
   
   h1 {
@@ -26,7 +38,7 @@
     font-size: 18px;
     line-height: 1.2;
     margin: 20px 20px; 
-    text-align: justify;
+    text-align: center;
   }
   
   .container {

@@ -19,6 +19,19 @@ body{
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
+    text-align: center;
+  }
+
+  .manifesto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 60px;
   }
   
   .page-title {
@@ -37,6 +50,7 @@ body{
     height: 300px;
     margin: auto;
     padding-top: 30px;
+    text-align: center;
   }
   
   img {
@@ -45,6 +59,7 @@ body{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    text-align: center;
   }  
 /* Set background color */
 body {
@@ -175,8 +190,9 @@ body {
   }
   
   .book-cover {
-    width: 10%;
+    text-align: center;
+    margin-left: 322px;
+    width: 20%;
     height: auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
-  
