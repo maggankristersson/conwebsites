@@ -1,0 +1,71 @@
+body {
+    background-color: #c8e6c9; /* light green background color */
+    color: #333; /* dark gray text color */
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+  }
+  p {
+    text-align: justify;
+    margin: 20px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #333; /* dark gray border around images */
+    max-width: 60%; /* make the image responsive */
+  }
+  nav {
+    background-color: #006400;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  ab {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .image1 {
+    float: right;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #333; /* dark gray border around table cells */
+    padding: 10px;
+  }
+  caption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  a {
+    color: #333; /* dark gray link color */
+    text-decoration: none;
+    border-bottom: 1px solid #333; /* dark gray underline for links */
+  }
+  a:hover {
+    color: #fff; /* white link color on hover */
+    background-color: #333; /* dark gray background color on hover */
+  }
+  
