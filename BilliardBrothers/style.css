@@ -2,6 +2,7 @@ body {
     background-color: #c8e6c9; /* light green background color */
     color: #333; /* dark gray text color */
     font-family: Arial, sans-serif;
+    margin: 0px;
   }
   h1 {
     text-align: center;
