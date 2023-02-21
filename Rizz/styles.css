@@ -1,0 +1,59 @@
+/* Define font family and size for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+  }
+  
+  /* Define header styles */
+  .header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header__title {
+    font-size: 28px;
+  }
+  
+  /* Define main section styles */
+  .main {
+    margin: 20px 0;
+  }
+  
+  /* Define section styles */
+  .section {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .section__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section__content {
+    margin-bottom: 20px;
+  }
+  
+  .section__list {
+    margin-left: 20px;
+  }
+  
+  /* Define footer styles */
+  footer {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
