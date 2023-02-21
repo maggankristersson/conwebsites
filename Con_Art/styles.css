@@ -26,7 +26,6 @@ a{
 
 p {
     animation: 0.001s linear infinite condemned_blink_effect;
-    text-shadow: 5px 0.1px;
   }
   
   @keyframes condemned_blink_effect {
