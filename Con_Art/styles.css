@@ -3,19 +3,30 @@ body{
     font-family: 'Gajraj One', cursive;
 }
 
+.main-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
 .seeker{
     margin-top: 250px;
-    margin-left: 400px;
+    margin-left: 300px;
     font-size: 35px;
 }
 
 .bwgif{
-    margin-top: 350px;
+    margin-top: 400px;
     margin-left: 300px;
 }
 
 p {
     animation: 0.001s linear infinite condemned_blink_effect;
+    text-shadow: 5px 0.1px;
   }
   
   @keyframes condemned_blink_effect {
@@ -29,4 +40,17 @@ p {
       visibility: visible;
     }
   }
+
+  
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+  }
+  
+  div {
+    display: inline-block;
+  }
+  
+  
   

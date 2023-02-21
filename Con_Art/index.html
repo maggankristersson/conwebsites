@@ -9,9 +9,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet"> 
+    <script src="anime.js"></script>
+    <script>
+        let animation = anime({
+    targets: '.letter',
+    opacity: 1,
+    translateY: 50, 
+    rotate: {
+      value: 360,
+      duration: 2000,
+      easing: 'easeInExpo'
+    }, 
+    scale: anime.stagger([0.7, 1], {from: 'center'}), 
+    delay: anime.stagger(100, {start: 1000}), 
+    translateX: [-10, 30]
+  });    
+    </script>
 </head>
-<body>
-    <p class="seeker">Can you resist the con?</p>
-    <img class="bwgif" src="https://media.giphy.com/media/l0MYNd8lC3z7q0jba/giphy.gif" alt="">
+<body onload="">
+    <div class="main-container">
+        <div class="main-item">
+            <p class="seeker"><a href="">Can you resist the con?</a></p>
+        </div>
+        <div class="main-item">
+            <img class="bwgif" src="https://media.giphy.com/media/OLESbhRZaDGjS/giphy.gif" alt="">
+        </div>
+        <div class="main-item">
+            <h1>
+                <span class="letter">C</span>
+                <span class="letter">A</span>
+                <span class="letter">N</span>
+                <div></div>
+                <span class="letter">Y</span>
+                <span class="letter">O</span>
+                <span class="letter">U</span>
+                <div></div>
+                <span class="letter">R</span>
+                <span class="letter">E</span>
+                <span class="letter">S</span>
+                <span class="letter">I</span>
+                <span class="letter">S</span>
+                <span class="letter">T</span>
+                <div></div>
+                <span class="letter">T</span>
+                <span class="letter">H</span>
+                <span class="letter">E</span>
+                <div></div>
+                <span class="letter">C</span>
+                <span class="letter">O</span>
+                <span class="letter">N</span>
+                <span class="letter">?</span>
+            </h1>    
+        </div>
+    </div>
 </body>
 </html>
